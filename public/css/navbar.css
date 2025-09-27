@@ -59,7 +59,10 @@ nav ul {
 /* DRAWER                                           */
 /* ------------------------------------------------ */
 .drawer {
+    /* Display NONE temporal para pruebas debe ser un FLEX*/
     display: none;
+    flex-direction: column;
+    align-items: center;
     color: var(--color-dark-1);
     font-family: var(--font-2);
     font-size: 2rem;
@@ -71,9 +74,16 @@ nav ul {
     background-color: var(--color-accent-2);
 }
 
-.drawer ul{
+.drawer-logo {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.drawer ul {
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .drawer > ul > li {
@@ -105,6 +115,6 @@ nav ul {
     }
 
     .drawer {
-        display: block;
+        display: flex;
     }
 }
