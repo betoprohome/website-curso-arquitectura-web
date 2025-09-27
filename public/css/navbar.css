@@ -60,8 +60,10 @@ nav ul {
 /* ------------------------------------------------ */
 
 .drawer {
+    display: none;
     color: var(--color-dark-1);
     font-family: var(--font-2);
+    font-size: 2rem;
     position: fixed;
     top: 0;
     left: 0;
@@ -90,4 +92,17 @@ nav ul {
     flex-direction: column;
     align-items: center;
     background-color: var(--color-accent-3);
+}
+
+/* ------------------------------------------------ */
+/* RESPONSIVO ADAPTANDO A MOVILES                   */
+/* ------------------------------------------------ */
+@media screen and (max-width: 768px) {
+    nav {
+        display: none;
+    }
+
+    .drawer {
+        display: block;
+    }
 }
