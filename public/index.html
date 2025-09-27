@@ -15,7 +15,9 @@
 </head>
 
 <body>
-    <!-- INICIO : MENU PRINCIPAL DE NAVEGACION -->
+    <!-- ------------------------------------- -->
+    <!-- INICIO : MENU PRINCIPAL               -->
+    <!-- ------------------------------------- -->
     <nav>
         <ul>
             <li class="nav-item"><a href="#">INICIO</a></li>
@@ -54,8 +56,16 @@
         </ul>
     </nav>
 
-    <aside class="drawer">
+    <!-- MINI NAV (solo se muestra cuando es dispositvo movil) -->
+    <div class="nav-mobile">
+        <img src="./img/logo_black_small.png" alt="logo">
+        <img src="./img/icons/icon-menu.svg" alt="menu" onclick="openDrawer()">
+    </div>
+
+    <!-- DRAWER : MENU (versión para moviles po defecto esta oculto) -->
+    <aside id="drawerMenu" class="drawer">
         <img class="drawer-logo" src="./img/logo_black_small.png" alt="logo">
+        <img class="drawer-close" onclick="closeDrawer()" src="./img/icons/icon-close.svg" alt="close">
         <ul>
             <li class="drawer-item">
                 <a href="#">INICIO</a></li>
@@ -94,7 +104,9 @@
             <li class="drawer-item"><a href="#">CONTACTOS</a></li>
         </ul>
     </aside>
-    <!-- FINAL : MENU PRINCIPAL DE NAVEGACION -->
+    <!-- ------------------------------------- -->
+    <!-- FIN : MENU PRINCIPAL                  -->
+    <!-- ------------------------------------- -->
 
     <main>
         <center><p><b>En construcción</b></p></center>

@@ -1,5 +1,5 @@
 /* ------------------------------------------------ */
-/* NAVEGACION                                       */
+/* NAVEGACIÓN                                       */
 /* ------------------------------------------------ */
 nav {
     background-color: var(--color-accent-2);
@@ -26,7 +26,7 @@ nav ul {
     color: var(--color-accent-1);
 }
 
-/* Mostrar "submenu" en al pasar el mouse */
+/* Mostrar "submenu" al pasar el mouse */
 .nav-item:hover > .nav-submenu {
     display: block;
 }
@@ -56,10 +56,23 @@ nav ul {
 }
 
 /* ------------------------------------------------ */
+/* MINI BARRA DE NAVEGACION PARA MOBILES            */
+/* ------------------------------------------------ */
+.nav-mobile {
+    display: none;
+    background-color: var(--color-accent-2);
+    height: 80px;
+}
+
+.nav-mobile > img {
+    margin: 10px;
+    cursor: pointer;
+}
+/* ------------------------------------------------ */
 /* DRAWER                                           */
 /* ------------------------------------------------ */
 .drawer {
-    /* Display NONE temporal para pruebas debe ser un FLEX*/
+    /* Display NONE temporal para pruebas, debe ser FLEX*/
     display: none;
     flex-direction: column;
     align-items: center;
@@ -78,6 +91,14 @@ nav ul {
     width: 200px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.drawer-close {
+    width: 80px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
 }
 
 .drawer ul {
@@ -107,14 +128,15 @@ nav ul {
 }
 
 /* ------------------------------------------------ */
-/* RESPONSIVO ADAPTANDO A MOVILES                   */
+/* RESPONSIVE - ADAPTACIÓN PARA MÓVILES             */
 /* ------------------------------------------------ */
 @media screen and (max-width: 768px) {
     nav {
         display: none;
     }
 
-    .drawer {
+    .nav-mobile {
         display: flex;
+        justify-content: space-between;
     }
 }
