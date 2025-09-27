@@ -58,7 +58,6 @@ nav ul {
 /* ------------------------------------------------ */
 /* DRAWER                                           */
 /* ------------------------------------------------ */
-
 .drawer {
     display: none;
     color: var(--color-dark-1);
@@ -81,17 +80,20 @@ nav ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*margin-left: 20px;*/
-    /*margin-right: 20px;*/
-    border-bottom: 1px solid var(--color-dark-1);
+    cursor: pointer;
+    border-bottom: 2px solid var(--color-dark-2);
 }
 
 .drawer-submenu {
     width: 100%;
+    display: none;
+    background-color: var(--color-accent-3);
+}
+
+.drawer-submenu.open {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--color-accent-3);
 }
 
 /* ------------------------------------------------ */
