@@ -1,7 +1,19 @@
+/* Agregando variables de estilos -- */
+:root {
+    --color-dark-1: #000000;
+    --color-dark-2: #0E0E0E;
+    --color-dark-3: #181818;
+    --color-accent-1: #FFFFFF;
+    --color-accent-2: #C39800;
+    --color-accent-3: #E8E300;
+    --font-1: 'Roboto', sans-serif;
+    --font-2: 'Bebas Neue', sans-serif;
+}
+
 body {
-	font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
+    background-color: #000000;
+    color: var(--color-accent-1);
+    font-family: var(--font-1);
     font-weight: 200;
     font-style: normal;
-    font-variation-settings:"wdth" 100;
 }

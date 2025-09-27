@@ -32,6 +32,7 @@ a:not([class]) {
 	/* text-decoration: none;
 	color: inherit; */
 	all: unset;
+    cursor: pointer;
 }
 
 /* 	Improve media defaults */

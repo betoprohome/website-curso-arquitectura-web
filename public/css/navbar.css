@@ -1,3 +1,16 @@
-li {
-    color: red;
+nav {
+    background-color: var(--color-accent-2);
+    font-family: var(--font-2);
+    font-size: 25px;
+    color: black;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
