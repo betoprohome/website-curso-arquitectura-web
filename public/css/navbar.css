@@ -3,7 +3,6 @@ nav {
     font-family: var(--font-2);
     color: var(--color-dark-1);
     font-size: 22px;
-    width: 100%;
 }
 
 nav ul {
@@ -15,27 +14,26 @@ nav ul {
     gap: 1rem;
 }
 
-/* Anclaje del submenu al item del menu principal */
-nav > ul > li {
+.nav-item {
     position: relative;
     cursor: pointer;
 }
 
-/* Ocultar submenu por defecto */
+.nav-item:hover {
+    color: var(--color-accent-1);
+}
+
+/* Mostrar "submenu" en al pasar el mouse */
+.nav-item:hover > .nav-submenu {
+    display: block;
+}
+
+/* Submenu (oculto por defecto) */
 .nav-submenu {
     display: none;
     position: absolute;
     z-index: 1;
     min-width: 200px;
-}
-
-/* Mostrar submenu en el hover del menu principal */
-nav > ul > li:hover > .nav-submenu {
-    display: block;
-}
-
-nav > ul > li:hover {
-    color: var(--color-accent-1);
 }
 
 .nav-submenu li {
