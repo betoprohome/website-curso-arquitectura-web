@@ -56,7 +56,25 @@ nav ul {
 }
 
 /* ------------------------------------------------ */
-/* MINI BARRA DE NAVEGACION PARA MOBILES            */
+/* LOGO Y TÍTULO DEL NAV-BAR                        */
+/* ------------------------------------------------ */
+.nav-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-title > img {
+    width: 70px;
+}
+
+.nav-title > span {
+    font-size: 50px;
+    margin-top: 5px;
+}
+
+/* ------------------------------------------------ */
+/* MINI BARRA DE NAVEGACIÓN PARA MÓVILES            */
 /* ------------------------------------------------ */
 .nav-mobile {
     display: none;

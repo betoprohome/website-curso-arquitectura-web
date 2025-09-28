@@ -15,7 +15,7 @@ A través de esta solución, los usuarios podrán conocer las instalaciones y ex
 *   **Demo del Producto:** [Ver demo](https://curso-arquitectura.web.app)
 
 ## Profesor
-*   Edinson Lorenzo Merino Villagaray.
+*   Edison Lorenzo Merino Villagaray.
  
 ## Integrantes
 *   Carlos Ancajima Sernaque.
