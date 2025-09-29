@@ -9,7 +9,8 @@
     --color-accent-2: #C39800;
     --color-accent-3: #E8C100;
     --font-1: 'Roboto', sans-serif;
-    --font-2: 'Bebas Neue', sans-serif;
+    --font-2: 'Staatliches', sans-serif;
+    --font-3: 'Bebas Neue', sans-serif;
 }
 
 body {
@@ -18,4 +19,9 @@ body {
     font-family: var(--font-1);
     font-weight: normal;
     font-style: normal;
+}
+
+h2 {
+    /*font-family: var(--font-2);*/
+    /*font-weight: lighter;*/
 }

@@ -50,6 +50,67 @@ header {
 }
 
 /* ------------------------------------------------ */
+/* EXPO                                             */
+/* ------------------------------------------------ */
+.expo {
+   background-color: var(--color-dark-3);
+}
+
+.expo >  h2 {
+    font-family: var(--font-2);
+    font-size: 40px;
+    text-align: center;
+    color: var(--color-accent-2);
+    padding: 20px;
+}
+
+.expo-cards-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.expo-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 400px;
+    align-items: center;
+    /*border: 1px solid red;*/
+    background-color: var(--color-dark-1);
+}
+
+.expo-card-content-img {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.expo-card-content-img > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.expo-card-title {
+    font-family: var(--font-2);
+    font-size: 30px;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: rgba(1,1,1, 0.5);
+}
+
+.expo-card-info {
+    padding: 10px;
+}
+
+/* ------------------------------------------------ */
 /* RESPONSIVE - ADAPTACIÓN PARA MÓVILES             */
 /* ------------------------------------------------ */
 @media screen and (max-width: 768px) {
@@ -60,5 +121,9 @@ header {
 
     .header-margin {
         margin-right: 0;
+    }
+
+    .expo-card {
+        width: 90%;
     }
 }

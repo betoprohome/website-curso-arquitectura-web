@@ -46,9 +46,9 @@ img, picture, video, canvas, svg {
 }
 
 /* Natural flow and rhythm in articles by default */
-article > * + * {
-	margin-top: 1em;
-}
+/*article > * + * {*/
+/*	margin-top: 0;*/
+/*}*/
 
 /* Inherit fonts for inputs and buttons */
 input,
