@@ -33,7 +33,7 @@
                     <li><a href="#">MAPAS Y GUÍAS</a></li>
                 </ul>
             </li>
-            <li class="nav-item">COLECCION
+            <li class="nav-item">COLECCIÓN
                 <ul class="nav-submenu">
                     <li><a href="#">GALERÍA DE OBRAS</a></li>
                     <li><a href="#">OBRAS DESTACADAS</a></li>
@@ -56,13 +56,13 @@
         </ul>
     </nav>
 
-    <!-- MINI NAV (solo se muestra cuando es dispositvo movil) -->
+    <!-- MINI NAV (solo se muestra cuando es dispositivo móvil) -->
     <div class="nav-mobile">
         <img src="./img/logo_black_small.png" alt="logo">
         <img src="./img/icons/icon-menu.svg" alt="menu" onclick="openDrawer()">
     </div>
 
-    <!-- DRAWER : MENU (versión para moviles po defecto esta oculto) -->
+    <!-- DRAWER : MENU (versión para móviles, por defecto está oculto) -->
     <div id="drawerMenu" class="drawer">
         <img class="drawer-logo" src="./img/logo_black_small.png" alt="logo">
         <img class="drawer-close" onclick="closeDrawer()" src="./img/icons/icon-close.svg" alt="close">
@@ -76,7 +76,7 @@
                 </ul>
             </li>
             <li class="drawer-item" onclick="toggleDrawerSubMenu(this)">
-                COLECCION
+                COLECCIÓN
                 <ul class="drawer-submenu">
                     <li><a href="#">GALERÍA DE OBRAS</a></li>
                     <li><a href="#">OBRAS DESTACADAS</a></li>
@@ -125,13 +125,26 @@
     <footer>
         <div class="footer-cards-content">
             <div class="footer-card">
-                LOGO Y REDES SOCIALES
+                <img class="footer-card-logo" src="./img/logo_black_small.png" alt="logo">
+                <div class="footer-card-socials">
+                    <a href="#"><img src="./img/icons/icon-instagram.svg"></a>
+                    <a href="#"><img src="./img/icons/icon-linkedin.svg"></a>
+                    <a href="#"><img src="./img/icons/icon-twitter.svg"></a>
+                    <a href="#"><img src="./img/icons/icon-messenger.svg"></a>
+                </div>
             </div>
             <div class="footer-card">
-                INFORMACION DE CONTACTOS
+                <p class="footer-card-title">Contáctenos</p>
+                <p>Teléfono: (01) 2040000</p>
+                <p>Dirección: Paseo Colón 125</p>
+                <p>Correo: informes@mali.pe</p>
             </div>
             <div class="footer-card">
-                SUSCRIBIRSE
+                <p class="footer-card-title">SUSCRIBIRSE</p>
+                <form class="footer-card-form">
+                    <input type="text" placeholder="correo electrónico">
+                    <button>ENVIAR</button>
+                </form>
             </div>
         </div>
         <div class="footer-ending">
